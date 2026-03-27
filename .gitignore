@@ -1,0 +1,48 @@
+# ========================
+# SECRET NOTES APP .gitignore
+# ========================
+
+# ⚠️ IMPORTANT: Never commit secrets!
+.env
+.env.local
+.env.production
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+
+# Uploaded files (if stored locally)
+uploads/
+files/
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs/
+*.log
+
+# Coverage
+coverage/
